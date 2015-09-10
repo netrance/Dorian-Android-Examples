@@ -1,0 +1,1 @@
+This project includes examples of sources on Android platform.
