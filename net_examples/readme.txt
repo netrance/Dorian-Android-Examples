@@ -1,0 +1,1 @@
+This project includes network examples of sources on Android platform. Especially, HTTP connection is the main topic. I will add examples to note and share how for Android applications to communicate with servers.

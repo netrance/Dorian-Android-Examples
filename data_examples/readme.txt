@@ -1,0 +1,1 @@
+This project includes data examples of sources on Android platform. In this repository, data means any kinds of data Android can use: SQLite database, preferences, files, and so on. I will add examples to note and share how for Android applications to read and write data.

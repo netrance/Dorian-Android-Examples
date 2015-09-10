@@ -1,0 +1,1 @@
+This project includes UI examples of sources on Android platform. I will add them to note and share how to define and use views of Android.
