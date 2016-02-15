@@ -1,0 +1,107 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Content of this layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOpenLeftDrawer"
+            android:text="Open Left Drawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnOpenRightDrawer"
+            android:text="Open Right Drawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <!-- Left Drawer -->
+    <LinearLayout
+        android:id="@+id/layoutLeftDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tvMenu1"
+            android:text="Menu 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMenu2"
+            android:text="Menu 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMenu3"
+            android:text="Menu 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <!-- Right Drawer -->
+    <LinearLayout
+        android:id="@+id/layoutRightDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tvMenu4"
+            android:text="Menu 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMenu5"
+            android:text="Menu 5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMenu6"
+            android:text="Menu 6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+
