@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="cf.domone.android.data_loss_example.MainActivity">
+
+    <!-- Shows current value as an integer -->
+    <TextView
+        android:id="@+id/tvCurrentValue"
+        android:text="Current Value: 0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Clcking this view makes current value decreased by 1. -->
+        <Button
+            android:id="@+id/btnDecrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Decrease" />
+
+        <!-- Clicking this view makes current value increased by 1. -->
+        <Button
+            android:id="@+id/btnIncrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Increase" />
+
+    </LinearLayout>
+
+</LinearLayout>
