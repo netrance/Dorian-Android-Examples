@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cf.domone.android.recyclerview_example_1.MainActivity">
+
+    <!-- The layout of items of this view is layout_sample_item.xml -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSample"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
