@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="cf.domone.android.okhttp_post_example_01.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dollar" />
+
+    <!-- View to input dollar value -->
+    <EditText
+        android:id="@+id/etDollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <!-- View to request changing dollar value into won value -->
+    <Button
+        android:id="@+id/btnChangeDollarIntoWon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change dollar into won"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Won" />
+
+    <!-- View to show the result won value -->
+    <EditText
+        android:id="@+id/etWon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"/>
+
+</LinearLayout>
