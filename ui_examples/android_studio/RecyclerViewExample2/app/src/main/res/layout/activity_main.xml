@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="cf.domone.android.recyclerview_example_2.MainActivity">
+
+    <!-- Recycler view to show the thumbnails of picture files from a directory -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvPictures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
