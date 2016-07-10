@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <!-- Title of this layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Menu"
+        style="@style/DrawerMenuTextStyle" />
+
+    <!-- Intro menu item -->
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intro"
+        style="@style/DrawerMenuTextStyle" />
+
+    <!-- My GitHub menu item -->
+    <TextView
+        android:id="@+id/tvMyGitHub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My GitHub"
+        style="@style/DrawerMenuTextStyle" />
+
+    <!-- My Gallery menu item -->
+    <TextView
+        android:id="@+id/tvMyGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Gallery"
+        style="@style/DrawerMenuTextStyle" />
+
+</LinearLayout>
