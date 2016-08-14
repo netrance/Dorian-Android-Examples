@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cf.domone.android.objectanimator_ex02.MainActivity">
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="LINEAR"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnOrange"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ACC"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="ACCDEC"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="DEC"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnPurple"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_purple"
+        android:text="BOUNCE"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnBlack"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/black"
+        android:text="OVER\nSHOOT"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
