@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lee.dorian.android.drag_view_ex01.MainActivity">
+
+    <!-- The target view to drag -->
+    <View
+        android:id="@+id/view_example"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_dark" />
+
+    <!-- The target view to drag -->
+    <View
+        android:id="@+id/view_example2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/holo_orange_dark" />
+
+
+
+</RelativeLayout>
