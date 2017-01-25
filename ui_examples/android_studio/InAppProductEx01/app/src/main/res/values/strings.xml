@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InAppProductEx01</string>
+
+    <!--
+        Visit to the following web page to get the public key.
+        https://developer.android.com/training/in-app-billing/preparing-iab-app.html
+        , and read the section 'Add Your Application to the Developer Console'.
+    -->
+    <string name="base64_encoded_public_key">
+    </string>
+</resources>
