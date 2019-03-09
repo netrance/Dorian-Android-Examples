@@ -13,11 +13,11 @@ This example demonstrates
 
 # Screenshot
 
-<img src="./screenshot1.jpg" width="800" height="480"></img>
+<img src="./screenshot1.png" width="800" height="480"></img>
 
 If you click one of radio buttons and click OK button, the application shows which one is selected with a toast.
 
-<img src="./screenshot2.jpg" width="800" height="480"></img>
+<img src="./screenshot2.png" width="800" height="480"></img>
 
 
 # References
