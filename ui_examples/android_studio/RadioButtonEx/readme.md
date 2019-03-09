@@ -6,9 +6,8 @@ This project is an example of RadioButton and RadioGroup views.
 # Description
 
 This example demonstrates
-* how to define RadioButton and RadioGroup views in an XML file.
-* how to set the default date of a DatePicker view.
-* how to read year, month and day of month from a DatePicker view.
+* how to define RadioButton and RadioGroup views in an XML file
+* how to check which radio button is selected
 
 
 # Screenshot
