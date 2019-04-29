@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515933493079",
+    "firebase_url": "https://frbs-setting-ex.firebaseio.com",
+    "project_id": "frbs-setting-ex",
+    "storage_bucket": "frbs-setting-ex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515933493079:android:4379374e85985b39",
+        "android_client_info": {
+          "package_name": "lee.dorian.android.firebasesettingex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515933493079-7v35oa4r56miokp720nb2k2ushc43hlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcOoNEuKdhglFzoF0EYELfviRrebQ9mAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515933493079-7v35oa4r56miokp720nb2k2ushc43hlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
