@@ -8,15 +8,13 @@ This sample project was created to define and show a markdown view.
 
 Main activity has two views. One is an edit view to input raw text, and the other is the markdown view to show the markdown text.
 
-<center>
-<img src="./screenshot-01.png" width="540" height="1110">
-Portrait mode
-</center>
+### Portrait Mode
 
-<center>
-<img src="./screenshot-02.png" width="540" height="1110">
-Landscape mode
-</center>
+<img src="./screenshot-01.png" width="540" height="1110">
+
+#### Landscape Mode
+
+<img src="./screenshot-02.png" width="1110" height="540">
 
 ---
 
