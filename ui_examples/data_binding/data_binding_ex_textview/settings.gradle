@@ -1,0 +1,4 @@
+include ':ex03'
+include ':ex02'
+include ':ex01'
+rootProject.name = "Data Binding Example - TextView"
