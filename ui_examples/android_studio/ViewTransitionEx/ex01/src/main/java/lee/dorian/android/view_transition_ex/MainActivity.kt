@@ -26,11 +26,6 @@ class MainActivity : AppCompatActivity() {
         startLayoutFloatingAnimation()
     }
 
-    override fun onWindowFocusChanged(hasFocus: Boolean) {
-        super.onWindowFocusChanged(hasFocus)
-
-    }
-
     private fun initLayoutFloatingTransition() {
         layoutFloatingScene1 = Scene.getSceneForLayout(layoutFloating, R.layout.layout_floating_1, this)
         layoutFloatingScene2 = Scene.getSceneForLayout(layoutFloating, R.layout.layout_floating_2, this)
