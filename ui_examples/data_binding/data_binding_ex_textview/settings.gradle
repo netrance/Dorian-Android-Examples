@@ -1,3 +1,4 @@
+include ':ex04'
 include ':ex03'
 include ':ex02'
 include ':ex01'
