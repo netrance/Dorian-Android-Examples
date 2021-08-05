@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Data Binding Ex - include</string>
+    <string name="welcoome_msg">Welcome to this app.</string>
+    <string name="common_login">Log In</string>
+</resources>
