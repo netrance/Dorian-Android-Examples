@@ -64,7 +64,11 @@ activity_main.xml 파일에도 정의합니다.
 ```
 (from activity_main.xml)
 
-include 문 작성할 때, 
+---
+
+# include 태그로 레이아웃 추가
+
+include 태그 작성할 때, 
 layout_toolbar.xml 파일의 변수들의 값을 지정해 주세요. 
 형식은 다음과 같습니다.
 
@@ -72,7 +76,10 @@ layout_toolbar.xml 파일의 변수들의 값을 지정해 주세요.
 app:변수명="@{값}"
 ```
 
-아래 예는 layout_toolbar.xml 파일의 title, isBackButtonVisible 
+include 태그에 android:id 속성도 추가해야 합니다. 
+그래야 바인딩 객체가 하위 뷰(이 예에서는 tvTitle, ivBackButton 뷰)에 접근할 수 있습니다.
+
+아래 예는 layout_toolbar.xml로 정의하는 레이아웃의 title, isBackButtonVisible 
 변수들의 값들을 지정하고 있습니다.
 
 ```
@@ -83,7 +90,6 @@ app:변수명="@{값}"
     app:isBackButtonVisible="@{isBackButtonVisible}" />
 ```
 (from activity_main.xml)
-
 
 ---
 
@@ -110,12 +116,12 @@ Boolean이 아닌 Integer입니다.
     android:src="@drawable/ic_back_button"
     android:visibility="@{isBackButtonVisible ? View.VISIBLE : View.GONE}"/>
 ```
-(from activity_main.xml)
+(from layout_toolbar.xml)
 
 ---
 
 
-### MainActivity 클래스
+# MainActivity 클래스
 
 바인딩 객체의 title, isBackButtonVisible 변수들에 값을 설정하면, 자동으로 툴바의 타이틀과 백버튼 보여줄지가 결정됩니다.
 
@@ -131,3 +137,4 @@ binding.isBackButtonVisible = false
 * From developer.android.com
   * [시작하기](https://developer.android.com/topic/libraries/data-binding/start?hl=ko)
   * [레이아웃 및 결합 표현식](https://developer.android.com/topic/libraries/data-binding/expressions?hl=ko)
+* [How to access view via ID inside a included layout](https://stackoverflow.com/questions/38969296/android-data-binding-how-to-access-view-via-id-inside-a-included-layout)
