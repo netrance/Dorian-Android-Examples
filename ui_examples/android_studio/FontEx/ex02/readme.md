@@ -24,10 +24,15 @@ MainActivity에는 텍스트 뷰가 있고, 그것에 나눔 고딕 폰트가 �
 4. 폰트 패밀리 파일 작성
 
 ```
-<font
-    android:fontStyle="normal"
-    android:fontWeight="400"
-    android:font="@font/font_nanum_gothic" />
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/font_nanum_gothic" />
+
+</font-family>
 ```
 
   * fontWeight 값을 조절하여 글씨를 더 굵거나 가늘게 설정할 수 있습니다. 기본값은 400입니다.
@@ -46,6 +51,12 @@ MainActivity에는 텍스트 뷰가 있고, 그것에 나눔 고딕 폰트가 �
 
 ```
 (from layout_toolbar.xml)
+
+---
+
+# 필수 조건
+
+* android:fontFamily 속성을 적용하려면, build.gradle 파일에서 minSdkVersion이 16 이상이어야 합니다.
 
 ---
 
