@@ -1,0 +1,3 @@
+include ':ex01'
+include ':ex02'
+rootProject.name = "Font Example"
