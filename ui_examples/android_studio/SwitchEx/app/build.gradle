@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
+//apply plugin: 'me.tatarka.retrolambda'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0"
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
 
     defaultConfig {
         applicationId "lee.dorian.android.switch_ex"

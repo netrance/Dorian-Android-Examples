@@ -1,1 +1,2 @@
+include ':custom_switch_ex'
 include ':app'

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SwitchEx.iml" filepath="$PROJECT_DIR$/SwitchEx.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SwitchEx.iml" filepath="$PROJECT_DIR$/.idea/SwitchEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SwitchEx.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SwitchEx.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom_switch_ex/SwitchEx.custom_switch_ex.iml" filepath="$PROJECT_DIR$/.idea/modules/custom_switch_ex/SwitchEx.custom_switch_ex.iml" />
     </modules>
   </component>
 </project>
