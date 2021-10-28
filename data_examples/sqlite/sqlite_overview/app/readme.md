@@ -70,5 +70,6 @@ Delete 항목을 클릭하면,
 # 레퍼런스
 
 * From developer.android.com
-  * [Switch class](https://developer.android.com/reference/android/widget/Switch)
-  * [안드로이드 스위치 버튼 꾸미기](https://black-jin0427.tistory.com/81)
+  * Save data using SQLite
+    * [English](https://developer.android.com/training/data-storage/sqlite)
+    * [한국어](https://developer.android.com/training/data-storage/sqlite?hl=ko)
