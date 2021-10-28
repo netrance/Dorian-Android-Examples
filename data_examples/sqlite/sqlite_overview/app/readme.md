@@ -10,7 +10,7 @@ MainActivity에서는 멤버를 추가, 조회, 수정, 삭제할 수 있습니�
 이 때 SQL 쿼리를 활용합니다.
 아래 스크린샷은 앱 초기 실행시 비어있는 양식입니다.
 
-<img src="./screenshot-01.png" width="540" height="1110">
+<img src="./screenshot-01.png" width="480" height="720">
 
 ---
 
@@ -20,7 +20,7 @@ MainActivity에서는 멤버를 추가, 조회, 수정, 삭제할 수 있습니�
 
 ### 예 - 이름, 포인트 입력
 
-<img src="./screenshot-02.png" width="540" height="1110">
+<img src="./screenshot-02.png" width="480" height="720">
 
 ---
 
@@ -32,15 +32,15 @@ Member 테이블에 저장된 모든 회원들을 리스트로 보여줍니다.
 
 ### 전체 회원 조회
 
-<img src="./screenshot-03.png" width="540" height="1110">
+<img src="./screenshot-03.png" width="480" height="720">
 
 ### 특정 이름의 회원 조회
 
-<img src="./screenshot-04.png" width="540" height="1110">
+<img src="./screenshot-04.png" width="480" height="720">
 
 ### 특정 포인트의 회원 조회
 
-<img src="./screenshot-05.png" width="540" height="1110">
+<img src="./screenshot-05.png" width="480" height="720">
 
 ---
 
@@ -49,12 +49,12 @@ Member 테이블에 저장된 모든 회원들을 리스트로 보여줍니다.
 조회한 회원 리스트에서 특정 회원의 행(row)을 길게 터치하면, 
 팝업 메뉴가 뜹니다. 
 
-<img src="./screenshot-06.png" width="540" height="1110">
+<img src="./screenshot-06.png" width="480" height="720">
 
 Edit 항목을 클릭하면, 수정 화면으로 이동합니다. 
 수정 화면에서 이름과 포인트를 수정할 수 있습니다.
 
-<img src="./screenshot-07.png" width="540" height="1110">
+<img src="./screenshot-07.png" width="480" height="720">
 
 ---
 
