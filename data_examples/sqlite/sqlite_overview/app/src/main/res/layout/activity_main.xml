@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member Input Form:"
+        style="@style/DefaultTextViewStyle" />
+
+    <!-- Member input form -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/etNewName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Name"
+            style="@style/DefaultEditTextStyle" />
+
+        <EditText
+            android:id="@+id/etNewPoint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Point"
+            style="@style/PointEditTextStyle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD MEMBER"
+        style="@style/DefaultButtonStyle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Member List:"
+        style="@style/DefaultTextViewStyle" />
+
+    <!-- Member search form -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/svName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            app:iconifiedByDefault="false"
+            app:queryHint="Name"
+            style="@style/DefaultEditTextStyle" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/svPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:inputType="number"
+            app:iconifiedByDefault="false"
+            app:queryHint="Point"
+            style="@style/PointEditTextStyle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSearchMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH MEMBERS"
+        style="@style/DefaultButtonStyle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMemberList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
