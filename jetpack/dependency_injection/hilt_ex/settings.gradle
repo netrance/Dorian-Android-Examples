@@ -1,0 +1,2 @@
+include ':hilt_ex01'
+rootProject.name = "Hilt Ex"
