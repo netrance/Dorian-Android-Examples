@@ -172,4 +172,6 @@ class MainActivity : AppCompatActivity() {
 
 * [Hilt를 사용한 종속 항목 삽입](https://developer.android.com/training/dependency-injection/hilt-android?hl=ko)
 * [Android DI with Hilt - Hilt를 이용한 의존성 주입 (from jaeyeong951.medium.com)](https://jaeyeong951.medium.com/android-di-with-hilt-hilt%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E%85-5076d9e9c46b)
-* [Hilt와 함께 제대로 찔러보자 안드로이드 의존성 주입 (옥수환 님)](https://drive.google.com/file/d/11YyGGxoIkzaWG14PE7vAjSrFW1MhGPEL/view)
+* Hilt와 함께 제대로 찔러보자 안드로이드 의존성 주입 (옥수환 님)
+** [동영상 강의](https://www.youtube.com/watch?v=gkUCs6YWzEY)
+** [강의 자료](https://drive.google.com/file/d/11YyGGxoIkzaWG14PE7vAjSrFW1MhGPEL/view)
