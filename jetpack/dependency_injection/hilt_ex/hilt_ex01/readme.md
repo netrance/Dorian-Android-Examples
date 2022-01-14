@@ -67,15 +67,15 @@ class HiltExApplication : Application() {
 
 **클래스에 추가할 애노테이션들**
 
-* @Module: 
+* @Module: 모듈을 활용하여 의존성 주입이 필요함을 Hilt에게 알리기 위함입니다.
 * @InstallIn: 의존성 주입할 객체의 생명주기를 정의합니다. 그 안에 들어갈 파라메터는 다음 중 하나입니다.
-** SingletonComponent::class
-** ActivityRetainedComponent
-** ActivityComponent::class
-** FragmentComponent::class
-** ViewComponent::class
-** ViewWithFragmentComponent::class
-** ServiceComponent::class
+  * SingletonComponent::class
+  * ActivityRetainedComponent
+  * ActivityComponent::class
+  * FragmentComponent::class
+  * ViewComponent::class
+  * ViewWithFragmentComponent::class
+  * ServiceComponent::class
 
 @InstallIn에 들어갈 파라메터 값에 대한 설명은 아래 링크를 참조하세요.
 
@@ -103,10 +103,10 @@ object SharedPreferencesModule {
 **함수에 정의할 파라메터들**
 
 * context: Context
-** 의존성 주입할 객체에게 Context가 필요하면, 이 파라메터를 함수에 추가하세요.
-** 사용 가능한 애노테이션
-*** @ApplicationContext: 주입할 객체에게 애플리케이션 컨텍스트가 필요할 때 사용
-*** @ActivityContext: 주입할 객체에게 액티비티 컨텍스트가 필요할 때 사용
+  * 의존성 주입할 객체에게 Context가 필요하면, 이 파라메터를 함수에 추가하세요.
+  * 사용 가능한 애노테이션
+    * @ApplicationContext: 주입할 객체에게 애플리케이션 컨텍스트가 필요할 때 사용
+    * @ActivityContext: 주입할 객체에게 액티비티 컨텍스트가 필요할 때 사용
 * 의존성 주입할 객체 안에 추가로 주입할 객체 (이번 샘플에는 없으나 다음 또는 다다음 샘플에서 보여 드릴 예정)
 
 **적용 예**
@@ -173,5 +173,5 @@ class MainActivity : AppCompatActivity() {
 * [Hilt를 사용한 종속 항목 삽입](https://developer.android.com/training/dependency-injection/hilt-android?hl=ko)
 * [Android DI with Hilt - Hilt를 이용한 의존성 주입 (from jaeyeong951.medium.com)](https://jaeyeong951.medium.com/android-di-with-hilt-hilt%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E%85-5076d9e9c46b)
 * Hilt와 함께 제대로 찔러보자 안드로이드 의존성 주입 (옥수환 님)
-** [동영상 강의](https://www.youtube.com/watch?v=gkUCs6YWzEY)
-** [강의 자료](https://drive.google.com/file/d/11YyGGxoIkzaWG14PE7vAjSrFW1MhGPEL/view)
+  * [동영상 강의](https://www.youtube.com/watch?v=gkUCs6YWzEY)
+  * [강의 자료](https://drive.google.com/file/d/11YyGGxoIkzaWG14PE7vAjSrFW1MhGPEL/view)
