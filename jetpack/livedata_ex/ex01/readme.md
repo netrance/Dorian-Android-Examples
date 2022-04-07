@@ -16,7 +16,7 @@ MainActivity에 EditText, Button 뷰가 하나씩 있습니다. 이름을 입력
 그 대신 라이브 데이터 변수에 값(여기서는 이름)이 설정될 때마다 
 토스트 띄우기를 실행할 수 있습니다. 
 
-<img src="./screenshot-01.gif" width="480" height="720">
+<img src="./screenshot-01.png" width="342" height="640">
 
 ---
 

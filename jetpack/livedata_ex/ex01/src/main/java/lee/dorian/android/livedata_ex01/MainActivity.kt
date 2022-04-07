@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     val liveName = MutableLiveData<String>()
 
-    val views = Views()
+    lateinit var views: Views
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +22,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun init() {
-        views.btnPostName.setOnClickListener(btnPostNameClickListener)
+        views = Views().apply {
+            btnPostName.setOnClickListener(btnPostNameClickListener)
+        }
         liveName.observe(this, liveNameObserver)
     }
 
@@ -31,12 +33,13 @@ class MainActivity : AppCompatActivity() {
         liveName.value = views.etName.text.toString()
     }
 
-    private val liveNameObserver = Observer<String> {
-        Toast.makeText(this@MainActivity, "Hello, ${it}.", Toast.LENGTH_SHORT).show()
+    private val liveNameObserver = Observer<String> { name ->
+        Toast.makeText(this@MainActivity, "Hello, ${name}.", Toast.LENGTH_SHORT).show()
     }
 
     inner class Views(
         val etName: EditText = findViewById<EditText>(R.id.etName),
         val btnPostName: Button = findViewById<Button>(R.id.btnPostName)
     )
+
 }
