@@ -41,11 +41,11 @@ LiveData<설정할 데이터의 타입>도 있습니다만, 이것은 값 변경
 방법은 2가지가 있습니다.
 
 * setValue(기록할 값) 함수 호출
-** 메인 스레드에서 사용 가능
-** 백그라운드에서 setValue 호출시 NetworkOnMainThreadException 예외 발생
-** Kotlin 언어 사용시 함수 대신 value 프로퍼티에 직접 값 지정 가능
+  * 메인 스레드에서 사용 가능
+  * 백그라운드에서 setValue 호출시 NetworkOnMainThreadException 예외 발생
+  * Kotlin 언어 사용시 함수 대신 value 프로퍼티에 직접 값 지정 가능
 * postValue(기록할 값) 함수 호출
-** 백그라운드에서 기록시 이 함수만 사용 가능
+  * 백그라운드에서 기록시 이 함수만 사용 가능
 
 **예1 - value에 직접 값 쓰기**<br/>
 
@@ -86,10 +86,10 @@ val name = liveName.value ?: ""
 라이브 데이터 객체의 observe 함수를 호출하면, 이후 값이 변할 때마다 특정 함수를 실행할 수 있습니다.
 
 * 파라메터
-** owner: LifeCycleOwner
-*** 이 함수 호출시 2번째 파라메터인 Observer 객체를 핸들링할 오너를 설정하세요. (예: 라이브 데이터를 가지고 있는 액티비티)
-** observer: Observer
-*** 라이브 데이터 값 변화를 처리할 함수를 담은 객체입니다.
+  * owner: LifeCycleOwner
+    * 이 함수 호출시 2번째 파라메터인 Observer 객체를 핸들링할 오너를 설정하세요. (예: 라이브 데이터를 가지고 있는 액티비티)
+  * observer: Observer
+    * 라이브 데이터 값 변화를 처리할 함수를 담은 객체입니다.
 
 **동일한 값을 반복 설정해도 Observer가 실행되는가?**<br/>
 실행됩니다. 이번 샘플을 만들면서 이를 확인했습니다.
