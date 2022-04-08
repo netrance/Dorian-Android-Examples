@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions version="1.2">
+
+    <action
+        id="copy_url"
+        label="@string/airaction_copy_url"
+        priority="1"
+        trigger_key="CTRL_LEFT+SHIFT_LEFT+C">
+        <preference
+            name="gesture"
+            value="click" />
+    </action>
+
+    <action
+        id="back"
+        label="@string/airaction_back"
+        priority="2"
+        trigger_key="CTRL_LEFT+BACK">
+        <preference
+            name="gesture"
+            value="swipe_left" />
+    </action>
+
+    <action
+        id="forward"
+        label="@string/airaction_forward"
+        priority="3"
+        trigger_key="CTRL_LEFT+SHIFT_LEFT+BACK">
+        <preference
+            name="gesture"
+            value="swipe_right" />
+    </action>
+
+    <action
+        id="webview_page_up"
+        label="@string/airaction_page_up"
+        priority="4"
+        trigger_key="CTRL_LEFT+SHIFT_LEFT+PAGE_UP">
+        <preference
+            name="gesture"
+            value="swipe_up" />
+    </action>
+
+    <action
+        id="webview_page_down"
+        label="@string/airaction_page_down"
+        priority="5"
+        trigger_key="CTRL_LEFT+SHIFT_LEFT+PAGE_DOWN">
+        <preference
+            name="gesture"
+            value="swipe_down" />
+    </action>
+
+    <action
+        id="reload"
+        label="@string/airaction_reload"
+        priority="6"
+        trigger_key="CTRL_LEFT+SHIFT_LEFT+F5">
+        <preference
+            name="gesture"
+            value="double_click" />
+    </action>
+
+</remote-actions>

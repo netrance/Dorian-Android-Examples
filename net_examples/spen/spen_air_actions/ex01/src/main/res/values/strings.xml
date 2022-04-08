@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">S-Pen Air Actions</string>
+
+    <!-- The lables of air actions -->
+    <string name="airaction_copy_url">copy_url</string>
+    <string name="airaction_back">back</string>
+    <string name="airaction_forward">forward</string>
+    <string name="airaction_page_up">webview_page_up</string>
+    <string name="airaction_page_down">webview_page_down</string>
+    <string name="airaction_reload">reload</string>
+
+</resources>
