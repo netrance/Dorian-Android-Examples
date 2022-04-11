@@ -1,4 +1,4 @@
-package lee.dorian.android.spen_air_actions
+package lee.dorian.android.spen_air_actions_ex01
 
 import org.junit.Test
 

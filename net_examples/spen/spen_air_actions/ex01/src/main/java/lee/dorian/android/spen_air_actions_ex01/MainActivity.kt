@@ -1,4 +1,4 @@
-package lee.dorian.android.spen_air_actions
+package lee.dorian.android.spen_air_actions_ex01
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.EditText
 import android.widget.Toast
-import lee.dorian.android.spen_air_actions.extension.copyToClipboard
-import lee.dorian.android.spen_air_actions.extension.goBack
-import lee.dorian.android.spen_air_actions.extension.goForward
-import lee.dorian.android.spen_air_actions.extension.hasScheme
+import lee.dorian.android.spen_air_actions_ex01.extension.copyToClipboard
+import lee.dorian.android.spen_air_actions_ex01.extension.goBack
+import lee.dorian.android.spen_air_actions_ex01.extension.goForward
+import lee.dorian.android.spen_air_actions_ex01.extension.hasScheme
 
 class MainActivity : AppCompatActivity() {
 
