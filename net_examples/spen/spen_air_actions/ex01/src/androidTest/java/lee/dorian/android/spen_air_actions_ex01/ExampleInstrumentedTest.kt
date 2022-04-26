@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("lee.dorian.android.spen_air_actions", appContext.packageName)
+        assertEquals("lee.dorian.android.spen_air_actions_ex01", appContext.packageName)
     }
 }
