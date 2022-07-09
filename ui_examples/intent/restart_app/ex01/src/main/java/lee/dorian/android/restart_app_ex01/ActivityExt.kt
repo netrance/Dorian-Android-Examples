@@ -1,7 +1,6 @@
-package lee.dorian.android.restart_app
+package lee.dorian.android.restart_app_ex01
 
 import android.app.Activity
-import androidx.core.app.ActivityCompat.finishAffinity
 
 fun Activity.restartApp() {
     finishAffinity()

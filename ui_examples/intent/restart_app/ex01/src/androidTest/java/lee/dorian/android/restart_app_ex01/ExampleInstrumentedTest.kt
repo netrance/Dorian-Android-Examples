@@ -1,4 +1,4 @@
-package lee.dorian.android.restart_app
+package lee.dorian.android.restart_app_ex01
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

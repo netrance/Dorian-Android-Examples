@@ -1,4 +1,4 @@
-package lee.dorian.android.restart_app
+package lee.dorian.android.restart_app_ex01
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
