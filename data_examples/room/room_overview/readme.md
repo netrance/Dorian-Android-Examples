@@ -6,7 +6,8 @@
 
 # 모듈
 
-* [rooom_ex01](./room_ex01/readme.md): 1번째 샘플 (관심사 미적용)
+* [room_common](./room_common/readme.md): 공용 샘플 (데이터베이스, UI 관련 공용 코드)
+* [room_ex01](./room_ex01/readme.md): 1번째 샘플 (관심사 미적용)
 * room_ex02: 2번째 샘플 (뷰모델 정의하여 일부 관심사 분리)
 * room_ex03: 3번째 샘플 (앱 아키텍처 가이드를 적용한 관심사 분리)
 * room_ex04: 4번째 샘플 (Hilt 라이브러리 추가 적용)
