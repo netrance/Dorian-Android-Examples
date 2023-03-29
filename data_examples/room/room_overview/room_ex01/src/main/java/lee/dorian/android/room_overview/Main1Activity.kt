@@ -78,18 +78,18 @@ class Main1Activity : AppCompatActivity() {
 
     private val memberItemLongClickListener = OnMemberItemLongClickListener { v, member ->
         val popupMenu = PopupMenu(this@Main1Activity, v)
-        menuInflater.inflate(R.menu.menu_member, popupMenu.menu)
+        menuInflater.inflate(lee.dorian.android.room_common.R.menu.menu_member, popupMenu.menu)
 
         popupMenu.setOnMenuItemClickListener {
             when (it.itemId) {
-                R.id.menuEdit -> {
+                lee.dorian.android.room_common.R.id.menuEdit -> {
                     val intent =
                         Intent(this@Main1Activity, EditMember1Activity::class.java).apply {
                             putExtra(EditMember1Activity.EXTRAKEY_MEMBER, member)
                         }
                     editMemberActivityResultLauncher.launch(intent)
                 }
-                R.id.menuDelete -> lifecycleScope.launch(Dispatchers.IO) {
+                lee.dorian.android.room_common.R.id.menuDelete -> lifecycleScope.launch(Dispatchers.IO) {
                     memberDao.deleteMember(member)
                     searchMember()
                 }
