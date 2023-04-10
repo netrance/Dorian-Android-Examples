@@ -34,6 +34,13 @@
 
 ---
 
+# 코루틴 관련 확장 함수들
+
+* StateFlowExt.kt 파일
+  * StateFlow 또는 하위 클래스/인터페이스의 확장 함수 정의
+
+---
+
 # 레퍼런스
 
 * From developer.android.com
