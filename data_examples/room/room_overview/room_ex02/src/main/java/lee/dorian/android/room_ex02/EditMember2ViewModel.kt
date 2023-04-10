@@ -22,7 +22,7 @@ class EditMember2ViewModel(
     private val db = AppDatabase.getInstance(app)
     private val memberDao = db.memberDao()
 
-    var memberToEdit
+    var memberToEdit: Member?
         get() = (savedStateHandle.get<Member>(KEY_MEMBER))
         set(value) {
             savedStateHandle[KEY_MEMBER] = value

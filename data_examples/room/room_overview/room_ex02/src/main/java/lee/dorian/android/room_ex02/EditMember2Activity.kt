@@ -8,6 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 import lee.dorian.android.room_common.Member
 import lee.dorian.android.room_common.databinding.ActivityEditMemberBinding
+import lee.dorian.android.room_common.openOKAlertDialog
 
 class EditMember2Activity : AppCompatActivity() {
     private val binding by lazy {
@@ -21,11 +22,16 @@ class EditMember2Activity : AppCompatActivity() {
 
         // Init data.
         viewModel.memberToEdit = intent.getSerializableExtra(EditMember2ViewModel.KEY_MEMBER) as Member
+        if (null == viewModel.memberToEdit) {
+            openOKAlertDialog("Error", "Invalid member.") {
+                finish()
+            }
+        }
 
         // Init UI.
         setContentView(binding.root)
-        binding.etCurrentName.setText(viewModel.memberToEdit.name)
-        binding.etCurrentPoint.setText(viewModel.memberToEdit.point.toString())
+        binding.etCurrentName.setText(viewModel.memberToEdit?.name)
+        binding.etCurrentPoint.setText(viewModel.memberToEdit?.point.toString())
 
         // Set listeners.
         binding.btnEditMember.setOnClickListener(btnEditMemberClickListener)
@@ -36,7 +42,7 @@ class EditMember2Activity : AppCompatActivity() {
             binding.etCurrentName.text.toString(),
             binding.etCurrentPoint.text.toString().toInt()
         ).apply {
-            this.id = viewModel.memberToEdit.id
+            this.id = viewModel.memberToEdit?.id ?: -1
         }
 
         lifecycleScope.launch {

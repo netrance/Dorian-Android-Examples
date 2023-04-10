@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.activity.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -26,9 +27,7 @@ class Main2Activity : AppCompatActivity() {
         ActivityMainBinding.inflate(layoutInflater)
     }
 
-    private val viewModel: Main2ViewModel by lazy {
-        ViewModelProvider(this).get(Main2ViewModel::class.java)
-    }
+    private val viewModel: Main2ViewModel by viewModels()
 
     private val memberListAdapter: MemberListAdapter by lazy {
         MemberListAdapter(memberItemLongClickListener)
