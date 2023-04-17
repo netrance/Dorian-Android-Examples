@@ -16,3 +16,4 @@ rootProject.name = "Room Overview"
 include ':room_ex01'
 include ':room_common'
 include ':room_ex02'
+include ':room_ex03'
