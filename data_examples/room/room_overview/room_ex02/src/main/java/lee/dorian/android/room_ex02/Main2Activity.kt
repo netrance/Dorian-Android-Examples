@@ -85,7 +85,7 @@ class Main2Activity : AppCompatActivity() {
                         }
                     editMemberActivityResultLauncher.launch(intent)
                 }
-                lee.dorian.android.room_common.R.id.menuDelete -> lifecycleScope.launch(Dispatchers.IO) {
+                lee.dorian.android.room_common.R.id.menuDelete -> lifecycleScope.launch {
                     viewModel.delete(member)
                     searchMember()
                 }
